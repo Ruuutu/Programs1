@@ -14,8 +14,8 @@ class StrongNumberRange49
 		{   
 			int temp=start;
 			int sum=0;
-            while (temp>0)
-            {
+                      while (temp>0)
+                      {
 				int rem= temp%10;
 				int fact=1;
 				
@@ -25,13 +25,13 @@ class StrongNumberRange49
 				}
 				sum+=fact;
 				temp/=10;
-            }
+                     }
 			if(sum==start)
 			{
 			 System.out.println(start);
 
 			}
-         start++;
+                start++;
 
 		}
 
