@@ -1,6 +1,6 @@
 //A number is said to be the Disarium number when the sum of its digit raised to the power of their respective positions is equal to the number itself.
 import java.util.Scanner;
-class Disarium45
+class Disarium
 {
 	public static void main(String[] args) 
 	{
