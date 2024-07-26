@@ -1,6 +1,6 @@
 // number is called an Automorphic number if and only if its square ends in the same digits as the number itself.
 import java.util.Scanner;
-class AutomorphicNumber41 
+class AutomorphicNumber
 {
 	public static void main(String[] args) 
 	{   
