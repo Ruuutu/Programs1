@@ -1,6 +1,6 @@
 //Armstrong Number in given range
 import java.util.Scanner;
-class ArmstrongNumberRangeCount48 
+class ArmstrongNumberRangeCount
 {
 	public static void main(String[] args) 
 	{
