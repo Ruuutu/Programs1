@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ArmstrongNumber37 
+class ArmstrongNumber
 {
 	public static void main(String[] args) 
 	{
