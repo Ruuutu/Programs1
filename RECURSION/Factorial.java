@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class Factorial
+{
+	public static void main(String[] args) 
+	{
+		//static int fact=1;
+        Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num= sc.nextInt();
+		System.out.println(fact(num));
+
+	}
+    public static int fact(int num)
+	{
+	  if(num!=0)
+		{
+	      int fact=num*fact(num-1);
+		  return fact;
+		}
+		return 1;
+	}
+}
